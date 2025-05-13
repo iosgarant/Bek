@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sheikh | Anime Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="light-mode">
+  <header>
+    <div class="lang-toggle">
+      <button onclick="setLanguage('uz')">UZ</button>
+      <button onclick="setLanguage('ru')">RU</button>
+    </div>
+    <div class="mode-toggle">
+      <button onclick="toggleMode()">☀️ / 🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Sheikh</h1>
+      <p class="tagline">"Jujutsu kuchi bilan xizmat"</p>
+    </section>
+
+    <section id="about">
+      <h2>Men haqimda</h2>
+      <p>Sheikh — Telegram xizmatlari bo‘yicha mutaxassis. Aloqa: @Sheikh_aka</p>
+    </section>
+
+    <section id="services">
+      <h2>Xizmatlar</h2>
+      <ul id="services-list"></ul>
+    </section>
+
+    <section id="feedback">
+      <h2>Fikrlar</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdH.../viewform?embedded=true"
+              width="100%" height="500" frameborder="0">Yuklanmoqda…</iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Aloqa</h2>
+      <p>Telegram: @Sheikh_aka | @sheikh_services | @savdo_tm</p>
+      <img src="assets/qr.png" alt="QR" class="qr-code"/>
+    </section>
+  </main>
+</body>
+</html>
